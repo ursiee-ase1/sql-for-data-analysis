@@ -1,0 +1,8 @@
+# Display specific columns from orders table
+SELECT id, account_id, occurred_at
+FROM orders;
+
+# Limit the number of rows being displayed
+SELECT occurred_at, account_id, channel
+FROM web_events
+LIMIT 15;
